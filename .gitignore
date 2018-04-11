@@ -2,7 +2,6 @@
 *~
 **/build/*
 *.kdev4
-*.txt
 *.autosave
 **/tests/*
 
