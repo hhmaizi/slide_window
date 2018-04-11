@@ -1,0 +1,7 @@
+read required data from viorb
+1. preintegration measurements data should be easy to get.
+2. getting and managing map points in local sliding window need a little efforts.
+3. first difficult then easy.
+4. read codes from sliding window section, and figure out how.
+5. could I read required data directly from optimizer, after optimizer has been initialized.
+6. 

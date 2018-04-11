@@ -1,0 +1,23 @@
+imu pose
+cam pose
+map points in world.
+
+##
+should I use imu pose cause imu factor is directly related to imu pose?
+but stereo projection is directly related to cam pose.
+
+what did viorb do? and vins-mono?
+
+## todo
+ric, tic, qic
+
+in slidewindownavstate imu frame or cam frame?
+conventions:
+ mappoint in world frame Pw,
+ Pbc: imu to cam in imu frame
+ Pwb: imu position in world frame
+ 
+## stereo projection
+concerning the jacobians
+derivative of imu equals derivative of cam?
+

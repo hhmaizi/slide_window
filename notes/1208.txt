@@ -1,0 +1,21 @@
+add parameterblock
+add residualblock
+setting options
+then solve
+
+map frame id to parameterblock index
+
+current frame 0
+last kf 1
+...
+
+imu factor linearized acc and gyr
+only current frame need this.
+
+// for ProjectionFactor, try to make it independent of feature_management
+// list<FeaturePerId> feature: saves all the feature points(image)
+// feature[i].feature_per_frame saves all pts_i(feature i)'s match in other frames(images).
+
+covariance from viorb and vins
+viorb: P V phi
+vins: P R V Ba Bg
