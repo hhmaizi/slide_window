@@ -1,0 +1,36 @@
+## NOV.21.2017 task:
+1. Feature_manager
+2. parameters
+3. cmake
+4. read para_Pose, ..., from data files.
+5. clear ros dependencies.
+6. para_Feature redesigned.
+7. pre_integration// simplized version.
+	send_imu() -> processIMU() -> IntegrationBase->push_back()
+so maybe, I could just use processIMU to build pre_integrations stack.
+to achieve this, I need:
+	double dt; vector<Vector3d> linear_acc; vector<Vector3d> angular_velocity;
+	acc bias and gyro bias
+	
+8. if wanna use pre_integration data directly, gonna settle down with jacobian and covariance.
+now we are left with jacobian in integration_base.
+#############################################################################
+## required inputs:
+ric, tic: camera extrinsic with respect to imu
+
+Ps, Vs, Rs, Bas, Bgs: navigation state.
+
+// we get the following double arrays from above params(ric, tic, Ps, Vs, Rs,  Bas, Bgs)
+// except para_Feature.
+// in the optimization process, these are all we needed.
+para_Pose, para_SpeedBias, para_Feature, para_Ex_Pose, para_Retrieve_Pose
+
+integration base members:
+ dt
+ acc_0, gyr_0, acc_1, gyro_1;
+ linearized_acc, linearized_gyro, linearized_ba, linearized_bg
+ jacobian, covariance;
+ noise18x18,
+ sum_dt, delta_p, delta_q, delta_v
+ dt_buf, acc_buf, gyr_buf
+ 

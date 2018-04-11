@@ -1,0 +1,111 @@
+%YAML:1.0
+---
+OPT:
+   -
+      FrameId: 419
+      Pi: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: f
+         data: [ 1.02502489e+00, -7.03623056e-01, 3.05784285e-01 ]
+      Qi: !!opencv-matrix
+         rows: 4
+         cols: 1
+         dt: f
+         data: [ 6.97320163e-01, 9.31024402e-02, 4.42127930e-03,
+             -7.10673630e-01 ]
+      Vi: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: f
+         data: [ -7.52728820e-01, 7.01343119e-02, 2.51104385e-01 ]
+   -
+      FrameId: 98
+      Pi: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: f
+         data: [ 1.06210661e+00, -7.06414938e-01, 2.92480469e-01 ]
+      Qi: !!opencv-matrix
+         rows: 4
+         cols: 1
+         dt: f
+         data: [ 7.02709794e-01, 7.84233958e-02, 1.70913003e-02,
+             -7.06934631e-01 ]
+      Vi: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: f
+         data: [ -7.45364368e-01, 7.30419457e-02, 3.33069950e-01 ]
+   -
+      FrameId: 97
+      Pi: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: f
+         data: [ 1.37801349e+00, -7.10415184e-01, 6.75121695e-02 ]
+      Qi: !!opencv-matrix
+         rows: 4
+         cols: 1
+         dt: f
+         data: [ 7.48008668e-01, -8.96885544e-02, 1.52933776e-01,
+             -6.39570355e-01 ]
+      Vi: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: f
+         data: [ -6.64502025e-01, -6.16872637e-03, 6.48399949e-01 ]
+   -
+      FrameId: 96
+      Pi: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: f
+         data: [ 1.57410443e+00, -6.77704036e-01, -1.73571378e-01 ]
+      Qi: !!opencv-matrix
+         rows: 4
+         cols: 1
+         dt: f
+         data: [ 7.43389845e-01, -2.56779224e-01, 2.59517729e-01,
+             -5.60434222e-01 ]
+      Vi: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: f
+         data: [ -4.44987476e-01, -8.01319927e-02, 6.84912324e-01 ]
+   -
+      FrameId: 95
+      Pi: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: f
+         data: [ 1.70539308e+00, -6.39520526e-01, -4.01855111e-01 ]
+      Qi: !!opencv-matrix
+         rows: 4
+         cols: 1
+         dt: f
+         data: [ 7.33924747e-01, -3.54444295e-01, 3.51645052e-01,
+             -4.60510075e-01 ]
+      Vi: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: f
+         data: [ -2.39106134e-01, -8.30191672e-02, 4.71565008e-01 ]
+   -
+      FrameId: 94
+      Pi: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: f
+         data: [ 1.78067148e+00, -5.81567466e-01, -5.75714529e-01 ]
+      Qi: !!opencv-matrix
+         rows: 4
+         cols: 1
+         dt: f
+         data: [ 6.82484210e-01, -4.41108376e-01, 4.68204528e-01,
+             -3.47020537e-01 ]
+      Vi: !!opencv-matrix
+         rows: 3
+         cols: 1
+         dt: f
+         data: [ -6.82112351e-02, -1.32656515e-01, 3.37977439e-01 ]
